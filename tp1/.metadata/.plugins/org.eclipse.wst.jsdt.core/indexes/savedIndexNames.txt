@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\pc think pro\OneDrive\Bureau\tps\gl\tp1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+610345102.index
+293884039.index
+4104810447.index
+269071605.index
+876474961.index
+3735668084.index

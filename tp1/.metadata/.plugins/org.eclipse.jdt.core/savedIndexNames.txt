@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\pc think pro\OneDrive\Bureau\tps\gl\tp1\.metadata\.plugins\org.eclipse.jdt.core
+876474961.index
+1865797976.index
+2335193434.index
