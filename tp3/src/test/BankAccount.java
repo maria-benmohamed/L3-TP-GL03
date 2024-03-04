@@ -7,29 +7,29 @@ public class BankAccount {
 	public BankAccount(int acctNum){
 		this.acctNum = acctNum ;
 	}
-	private int getAccountNum () {
+	protected int getAccountNum () {
 		return acctNum ;
 	}
-	private boolean deposit(int amount){
+	protected boolean deposit(int amount){
 		if(amount <= 0)
 			return false;
 		balance += amount ;
 		lastTransaction = amount ;
 		return true ;
 	}
-	private boolean withdraw(int amount) {
+	protected boolean withdraw(int amount) {
 		if( amount>0 && balance>=amount) {
-		balance -= amount ;
-		lastTransaction = -amount ;
-		return true ;
+			balance -= amount ;
+			lastTransaction = -amount ;
+			return true ;
 		}
 		else
 			return false;
 	}
-	private int getBalance(){
+	protected int getBalance(){
 		return balance ;
 	}
-	private int getLastTransAmount(){
+	protected int getLastTransAmount(){
 		return lastTransaction;
 	}
 	@Override
